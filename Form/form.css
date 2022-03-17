@@ -1,0 +1,73 @@
+body {
+    background-image: url('images/jsimage.jpeg');
+    background-size: cover;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+}
+
+.container {
+    position: absolute;
+    width: 400px;
+    height: 300px;
+    top: 150px;
+}
+
+.glassmorph {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    
+}
+
+.form-input{
+    margin: 10px 0;
+    width: 80%;
+    border-radius: 10px;
+    border: 0;
+    padding: 10px;
+    background: transparent;
+    border: 2px white solid;
+    color: black;
+    
+}
+.form-input:focus{
+    outline: none;
+}
+
+label{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+}
+#btn{
+    width: 85%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0;
+    background: rgb(177, 151, 38);
+    color: rgb(5, 2, 2);
+    font-size: 17px;
+    font-weight: 400;
+}
+#btn:hover{
+    color: black;
+    background-color:rgb(192, 164, 41);
+}
